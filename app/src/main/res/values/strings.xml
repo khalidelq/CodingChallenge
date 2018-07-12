@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Coding Challenge</string>
+
+
+    <!--Facebook app ID-->
+    <string name="facebook_app_id">111383939736361</string>
+    <string name="fb_login_protocol_scheme">fb111383939736361</string>
+    <string name="FirebaseUrl">gs://codingchallenge-bf4c2.appspot.com/</string>
+
+
+
+
+    <string name="title_activity_menu">Menu</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_home">Démarrez avec M-CNDP</string>
+
+    <string name="userEmail">Email</string>
+    <string name="userPassword">Mot de passe</string>
+    <string name="Forgetpsd">Mot de passe oublié !</string>
+    <string name="Inscription">J"'"ai pas un compte ! crée un ?</string>
+    <string name="loginBtn">S"'"identifier</string>
+    <string name="nom">Nom </string>
+    <string name="prenom">Prénom</string>
+    <string name="telephone">Téléphone </string>
+    <string name="userCPassword">Confirmer mot de passe</string>
+    <string name="adresse">Adresse </string>
+    <string name="ville">Ville </string>
+    <string name="pays">Pays </string>
+    <string name="inscrirBTn">Enregistrer</string>
+    <string name="EnvoyerBTn">ENVOYER</string>
+    <string name="textcode">Code</string>
+    <string name="codeBtn">OK</string>
+    <string name="plaintecontre">Plainte formulée contre</string>
+    <string name="message">Message</string>
+    <string name="piecejointe">Piéce jointe</string>
+    <string name="deposerBtn">Déposer</string>
+    <string name="depot_plainte">Dépot d"'"une plainte</string>
+    <string name="suivi_plainte">Suivi des plaintes</string>
+    <string name="contact">Contact</string>
+    <string name="localisation">Localiser la CNDP</string>
+    <string name="modification_mdp">Modifier mot de passe</string>
+    <string name="deconnexion">DÉCONNEXION</string>
+    <string name="Message">Message</string>
+    <string name="SendMail">Nouveau mail</string>
+    <string name="Ecriremessage">Écrire un message</string>
+    <string name="Objet">Objet</string>
+    <string name="Configuration">Configuration</string>
+    <string name="Redigermessage">Rédigez votre message</string>
+    <string name="francaisBtn">Français</string>
+    <string name="arabeBtn">العربية</string>
+    <string name="Ignorer">Ignorer</string>
+    <string name="my_cart">My Cart</string>
+    <string name="delete">Supprimer</string>
+    <string name="valider">VALIDER</string>
+    <string name="restorer">restaurer</string>
+    <string name="ResterConnecte">Rester connecté</string>
+    <string name="Enregister">S"'"enregistrer</string>
+    <string name="Notification">Notifications</string>
+    <string name="profil">Profil</string>
+    <string name="adressea">Adresse :</string>
+    <string name="NR">Numero de téléphone :</string>
+    <string name="CN">Contactez nous</string>
+    <string name="modifier">Modifier</string>
+    <string name="reg">Si vous voulez garder votre profil anonyme veuillez cocher la case "Mode confidentiel". </string>
+    <string name="s">Pour savoir plus :</string>
+    <string name="tc">termes de confidentialité</string>
+    <string name="modeconfidentiel">Mode Confidentiel</string>
+    <string name="soumettre">Soumettre</string>
+    <string name="conditionu">Conformément aux dispositions de l’article 37 du règlement intérieur de la Commission Nationale de contrôle de protection des Données à Caractère Personnel (CNDP), toute plainte adressée à la CNDP doit indiquer le nom, l’adresse et la signature de son auteur.</string>
+    <string name="conditionus">Toutefois, en cochant la case « Mode confidentiel/anonyme» lors de dépôt de votre plainte via l’application mobile M-CNDP, la CNDP vous permet de déposer votre plainte en mode anonyme vis-à-vis du responsable de traitement ; sujet de de la plainte, et votre identité ne sera pas révélé à ce dernier.</string>
+    <string name="identifiezvous">Identifiez-vous</string>
+    <string name="connexion">CONNEXION</string>
+    <string name="geolocalisation">Nous localiser</string>
+    <string name="localiserlacndp">LOCALISER LA CNDP</string>
+    <string name="enregistrervous">ENREGISTREZ VOUS</string>
+    <string name="demarrer">INSCRIPTION</string>
+    <string name="depotdune">DÉPOT PLAINTE</string>
+    <string name="depotduneS">DÉPOT D"'"UNE PLAINTE</string>
+    <string name="suividesS">SUIVI DES PLAINTES</string>
+    <string name="plainte">LOREM IPSUM DOLOR</string>
+    <string name="choisirlemotifdelaplainte">Choisir le motif de la plainte</string>
+    <string name="suivides">SUIVI PLAINTES</string>
+    <string name="PLAINTES">PLAINTES</string>
+    <string name="contacteznous">CONTACT</string>
+    <string name="ouappeleznous">Ou appelez nous !!</string>
+    <string name="appel">appel</string>
+    <string name="entrevotream">MOTS DE</string>
+    <string name="motdepasseoublie">MOT DE PASSE OUBLIÉ</string>
+    <string name="cndp">CNDP</string>
+    <string name="Menu">ACCUEIL</string>
+    <string name="Profile">Profile</string>
+    <string name="informationpersonnelles">Confirmez votre inscription</string>
+    <string name="CONFIRMATION">INSCRIPTION</string>
+    <string name="plainten">PLAINTE N°</string>
+    <string name="Datede">Date de</string>
+    <string name="enregisrezvous">Enregistrez vous</string>
+    <string name="demarer">DÉMARRER</string>
+    <string name="termesdeconf">Termes de confidentialité</string>
+    <string name="termesdeconflite">Termes de confidentialitéة</string>
+    <string name="mentionsl">Conditions d´utilisation</string>
+    <string name="mentionsld">Conditions d´utilisation</string>
+    <string name="apropos">A propos de M-CNDP</string>
+    <string name="aproposde">M-CNDP est une application mobile (de demande d’""information et de dépôt de plainte en ligne)   éditée par la Commission Nationale de contrôle de protection des Données à Caractère Personnel (CNDP).
+    </string>
+    <string name="sapropos">Cette application est un outil qui permet aux citoyens de contacter la CNDP afin de s"’"informer sur les différents aspects de la protection de la vie privée et des données personnelles, et de déposer et suivre leurs plaintes auprès d"’"elle.</string>
+    <string name="sapropos1">L"’"application M-CNDP est supportée par les appareils de type Tablette ou Smartphone dotés des systèmes d"’"exploitation mobile Android ou iOS et des navigateurs HTML 5.  </string>
+
+    <string name="textmentionsl">Législation relative à la protection des données personnelles
+ « Toute personne a droit à la protection de sa vie privée », article 24 de la Constitution du Maroc.
+ « … Le droit à l"’"information ne peut être limité que par la loi, dans le but d"’"assurer la protection de tout ce qui concerne la défense nationale, la sûreté intérieure et extérieure de l"’"Etat, ainsi que la vie privée des personnes, de prévenir l"’"atteinte aux droits et libertés énoncés dans la présente Constitution … », article 27 de la Constitution du Maroc.
+Dahir n° 1-09-15 du 22 safar 1430 (18 février 2009) portant promulgation de la loi n° 09-08 relative à la protection des personnes physiques à l"’"égard du traitement des données à caractère personnel.
+Décret 2-09-165 du 21 mai 2009 pris pour l"'"application de la loi n° 09-08 relative à la protection des personnes physiques à l"’"égard du traitement des données à caractère personnel.
+Règlement Intérieur de la CNDP.
+Autres textes
+La loi 31-08 édictant les mesures de protection du consommateur.
+La loi 53-05 relative à l"’"échange électronique des données juridiques.
+La loi 24-96 relative à la poste et aux télécommunications.</string>
+    <string name="jailumentionsl">J"’"ai lu et j"’"accepte les</string>
+    <string name="ml">conditions d´utilisation</string>
+    <string name="description">Description</string>
+    <string name="mp">Détails de votre plainte</string>
+    <string name="n">SUIVI PLAINTES</string>
+    <string name="deposele">Déposé le</string>
+    <string name="motifdelaplainte">Motif de la plainte :</string>
+    <string name="formuleecontre">Plainte formulée contre :</string>
+    <string name="modifiele">Date de</string>
+    <string name="descriptiondelaplainte">Description de la plainte</string>
+    <string name="Numerodelaplainte">N°</string>
+    <string name="Deposele">Déposé Le</string>
+    <string name="Plainteformuleecontre">Formulée Contre</string>
+    <string name="Motifdelaplainte">Motif</string>
+    <string name="Modifiele">Date dépot</string>
+    <string name="Etatdelaplainte">Etat</string>
+    <string name="modifierprofil">MODIFIER PROFIL</string>
+    <string name="modifiermotdepasse">MODIFIER MOTS DE PASSE</string>
+    <string name="choisirobjet">Choisir l"'"objet</string>
+    <string name="svpnom">Veuillez renseigner ce champ</string>
+    <string name="maininvalide">Mot de passe invalide</string>
+    <string name="me">Vous n"'"avez pas accepté les conditions d´utilisation</string>
+    <string name="entrercode">s"'"il vous plaît entrer le code</string>
+    <string name="codecorrect">Ce code n"'"est pas correct</string>
+    <string name="codeincorrect">Ce code est correct</string>
+    <string name="mailexiste">Cet compte existe déja</string>
+    <string name="enregi">Enregistrement d"'"utilisateur réussi</string>
+    <string name="mesenv">Message envoyer</string>
+    <string name="minv">Adresse mail invalide</string>
+    <string name="depsucc">Déposition de plainte avec succès</string>
+    <string name="ausu">Authentification avec succès</string>
+    <string name="cncp">Commission Nationale de Contrôle de Protection des Données à Caractère Personnel</string>
+    <string name="mailv">Adresse mail valide</string>
+    <string name="meenv">Message envoyé</string>
+    <string name="modimdp">Votre mot de passe a été bien modifier</string>
+    <string name="mdpro">Modification profil avec succès</string>
+    <string name="sendmail">email envoyé</string>
+    <string name="majNotification">NOTIFICATIONS</string>
+    <string name="majNotifications">NOTIFICATIONS</string>
+    <string name="mdpinva">Mot de passe invalide</string>
+    <string name="datededep">Date de dépot :</string>
+    <string name="choisirojet">Choisir l"'"objet</string>
+    <string name="formulecon">Formulée contre :</string>
+    <string name="adres">Adresse mail invalide</string>
+    <string name="telep">Numéro de téléphone invalide</string>
+    <string name="nompre">Nom et Prénom</string>
+    <string name="fonction">Fonction</string>
+    <string name="gsmtel">GSM / Tel Fixe</string>
+    <string name="adressede">Adresse de l"'"organisation</string>
+    <string name="organisation">Organisation</string>
+    <string name="deposezvp">Déposez votre plainte</string>
+    <string name="consultervn">Consultez vos notifications</string>
+    <string name="suivezvp">Suivez vos plaintes</string>
+    <string name="datederniere">Date état</string>
+    <string name="validation">Confirmez le dépôt de la plainte</string>
+    <string name="vplainte">PLAINTE</string>
+    <string name="messagecp">Vous serez tenus informés de tout changement de l"’"état de votre plainte.Veuillez consulter la rubrique « Notifications »</string>
+    <string name="numerop">Le numero de la plainte est :</string>
+    <string name="fermer">fermer</string>
+    <string name="gps_network_not_enabled">Vous devez activer les services de localisation</string>
+    <string name="open_location_settings">Activer</string>
+    <string name="Cancel">Annuler</string>
+    <string name="smc">Supprimer mon compte</string>
+    <string name="sdc">Suppression du compte</string>
+    <string name="clsc">Confirmer la suppression du compte</string>
+    <string name="valide">Valider</string>
+    <string name="npj">Nombre des pièces jointes :</string>
+    <string name="cptdes">Votre compte a été supprimé</string>
+    <string name="inf">Information</string>
+    <string name="votrecomptesup">Votre compte a été supprimé! Veillez contacter l"'"administration de la cndp.</string>
+    <string name="version">Version v1.0/2018</string>
+    <string name="stcode">Validation du code</string>
+    <string name="stemail">Validation de l"'"adresse émail</string>
+    <string name="stmotdepasse">Validation du mot de passe</string>
+    <string name="sizedepot">vous avez dépassé 5 mega</string>
+    <string name="ValidateInscrTitle">Validation du code de vérification</string>
+    <string name="ValidateInscrMessage">Veuillez vérifier votre boîte de réception</string>
+    <string name="codeincorre">Veuillez entrer le bon code</string>
+    <string name="incorectlogin">Vérifier vos identifiants de connexion</string>
+</resources>

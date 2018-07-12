@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:ignore="NewApi">true</item>
+    </style>
+    <style name="Autocomplete">
+        <item name="colorControlNormal">@color/line</item>
+        <item name="colorControlActivated">@color/bluue</item>
+    </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@color/line</item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">@color/bluue</item> <!-- activated color change as you wish -->
+        <item name="android:textColor">@color/line</item> <!-- checkbox text color -->
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cooking.justplusk.tasty.recipes.easy.tastyrecipes.cooking.Videos.FavortieActivity">
+    <item
+        android:id="@+id/uploadToFireBase"
+        android:orderInCategory="100"
+        android:title="Upload To Firebase"
+        app:showAsAction="never" />
+</menu>

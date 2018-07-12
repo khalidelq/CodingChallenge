@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifiezvous"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:layout_below="@id/cn"
+            android:paddingTop="5dp"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginRightPercent="10%"
+            android:id="@+id/titre"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connexion"
+            android:textColor="@color/white"
+            android:textSize="20pt"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginRightPercent="10%"
+            android:id="@+id/cn"
+            />
+    </android.support.percent.PercentRelativeLayout>
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        >-->
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:background="@drawable/trans_white_rec"
+                app:layout_widthPercent="80%"
+                app:layout_heightPercent="48%"
+                app:layout_marginTopPercent="24%"
+                app:layout_marginLeftPercent="10%"
+                app:layout_marginRightPercent="10%"
+                />
+            <ImageButton
+                android:background="@drawable/ic_user_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_marginTopPercent="26%"
+                app:layout_marginLeftPercent="81%"
+                app:layout_marginRightPercent="81%"
+                android:id="@+id/emailicon" />
+            <AutoCompleteTextView
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="10%"
+                android:hint="@string/userEmail"
+                app:layout_marginLeftPercent="15%"
+                app:layout_marginTopPercent="23%"
+                app:layout_marginRightPercent="15%"
+                android:textSize="10pt"
+                android:textColorHint="@color/text"
+                android:id="@+id/userEmail"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:theme="@style/Autocomplete"
+                />
+            <AutoCompleteTextView
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="10%"
+                android:hint="@string/userPassword"
+                app:layout_marginLeftPercent="15%"
+                android:textSize="10pt"
+                android:textColorHint="@color/text"
+                app:layout_marginRightPercent="15%"
+                android:id="@+id/userPassword"
+                android:layout_below="@id/userEmail"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:theme="@style/Autocomplete"
+                />
+            <ImageButton
+                android:background="@drawable/ic_pass_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_marginTopPercent="3%"
+                app:layout_marginLeftPercent="80%"
+                app:layout_marginRightPercent="80%"
+                android:layout_below="@id/userEmail"
+                android:id="@+id/passhide" />
+        <CheckBox android:id="@+id/checkbox_meat"
+            app:layout_widthPercent="70%"
+            app:layout_heightPercent="10%"
+            app:layout_marginLeftPercent="15%"
+            app:layout_marginTopPercent="3%"
+            app:layout_marginRightPercent="15%"
+            android:layout_below="@id/userPassword"
+            android:onClick="onCheckboxClicked"
+            android:button="@drawable/checkbox_background"/>
+            <TextView
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="6%"
+                android:text="@string/ResterConnecte"
+                android:textSize="8pt"
+                app:layout_marginLeftPercent="22%"
+                app:layout_marginRightPercent="22%"
+                android:layout_below="@+id/userPassword"
+                app:layout_marginTopPercent="6.5%"
+                android:textColor="@color/bluue"
+                android:id="@+id/rc"
+                />
+        <TextView
+            android:id="@+id/Forgetpsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Forgetpsd"
+            app:layout_marginTopPercent="4%"
+            android:textColor="@color/text"
+            android:button="@drawable/radio_button"
+            android:layout_below="@id/checkbox_meat"
+            android:layout_centerHorizontal="true"
+            android:textSize="8pt" />
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/Forgetpsd"
+                />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:textColor="@color/white"
+            android:text="@string/loginBtn"
+            android:textSize="7pt"
+            android:background="@drawable/btn_blue"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Forgetpsd"
+            app:layout_marginTopPercent="5%"
+            android:id="@+id/loginBtn"
+            />
+        </android.support.percent.PercentRelativeLayout>
+<!--
+        </ScrollView>
+-->
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="79%"
+            android:text="@string/Inscription"
+            android:textColor="@color/text"
+            android:id="@+id/jai"
+            android:layout_centerHorizontal="true"
+            android:textSize="8pt"
+            />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:textColor="@color/Blue"
+            android:text="@string/Enregister"
+            android:textSize="7pt"
+            app:layout_marginTopPercent="5%"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal"
+            android:layout_below="@id/jai"
+            android:background="@drawable/btn_white"
+            android:id="@+id/Inscription"
+            />
+        </android.support.percent.PercentRelativeLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    </android.support.percent.PercentRelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
